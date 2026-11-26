@@ -3,7 +3,7 @@
 Technicien GTB en alternance chez Caldya et étudiant en Master Smart & Green Building (ESIEE-IT), je présente ici mon parcours et 10 projets, du comptage électrique sur chantier à la supervision énergétique IoT.
 Le site est une application full-stack : un frontend React qui consomme une API Express.
 
-**🌐 Site en ligne : https://ludovic-grambert.vercel.app** *(adresse à mettre à jour après le déploiement)*
+**🌐 Site en ligne : https://portfolio-sgb-pb72.vercel.app**
 
 ## Stack
 
