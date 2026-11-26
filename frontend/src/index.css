@@ -803,3 +803,14 @@ input[type="range"] { width: 100%; accent-color: var(--accent); cursor: pointer;
 @media (max-width: 420px) {
   .logo span:last-child { display: none; }
 }
+
+/* bouton GitHub de la barre de menu */
+.bouton-github {
+  display: grid; place-items: center; width: 40px; height: 40px; border-radius: 50%;
+  background: var(--carte); color: var(--texte); border: 1px solid var(--bord);
+  font-family: var(--mono); font-size: 0.78rem; font-weight: 700; text-decoration: none;
+  transition: border-color 0.2s, color 0.2s, transform 0.3s var(--ease);
+}
+.bouton-github:hover { border-color: var(--accent); color: var(--accent); transform: translateY(-2px); }
+.btn-github-contact { margin-left: 10px; }
+@media (max-width: 420px) { .bouton-github { display: none; } }

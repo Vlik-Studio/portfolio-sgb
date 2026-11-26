@@ -2,6 +2,7 @@ import useApi from "../hooks/useApi.js";
 import Etat from "../components/Etat.jsx";
 import Reveal from "../components/Reveal.jsx";
 import Seo from "../components/Seo.jsx";
+import BoutonGithub from "../components/BoutonGithub.jsx";
 import { useLangue } from "../i18n/Langue.jsx";
 
 export default function Contact() {
@@ -41,6 +42,7 @@ export default function Contact() {
           <h3>{t("contact.cv")}</h3>
           <p>{disponibilite}</p>
           <a className="btn btn-contour" href={cv} target="_blank" rel="noreferrer">{t("contact.ouvrirCv")}</a>
+          <BoutonGithub className="btn-github-contact" />
         </Reveal>
       </div>
     </div>

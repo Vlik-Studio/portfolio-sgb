@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Link, NavLink } from "react-router";
 import BoutonTheme from "./BoutonTheme.jsx";
 import BoutonLangue from "./BoutonLangue.jsx";
+import BoutonGithub from "./BoutonGithub.jsx";
 import { useLangue } from "../i18n/Langue.jsx";
 
 const LIENS = [
@@ -38,6 +39,7 @@ export default function Navbar() {
         </nav>
 
         <div className="nav-droite">
+          <BoutonGithub variante="icone" />
           <BoutonLangue />
           <BoutonTheme />
           <button

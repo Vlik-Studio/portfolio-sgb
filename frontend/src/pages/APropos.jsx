@@ -3,6 +3,7 @@ import Etat from "../components/Etat.jsx";
 import Frise from "../components/Frise.jsx";
 import Reveal from "../components/Reveal.jsx";
 import Seo from "../components/Seo.jsx";
+import BoutonGithub from "../components/BoutonGithub.jsx";
 import { useLangue } from "../i18n/Langue.jsx";
 
 export default function APropos() {
@@ -33,7 +34,10 @@ export default function APropos() {
             <Reveal as="p" key={paragraphe} delai={i * 100}>{paragraphe}</Reveal>
           ))}
           <Reveal delai={300}>
-            <a className="btn btn-contour" href={cv} download>{t("apropos.cv")}</a>
+            <div className="hero-actions">
+              <a className="btn btn-contour" href={cv} download>{t("apropos.cv")}</a>
+              <BoutonGithub />
+            </div>
           </Reveal>
         </div>
 

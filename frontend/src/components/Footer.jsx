@@ -10,6 +10,7 @@ export default function Footer() {
         {profil && (
           <span className="footer-liens">
             <a href={`mailto:${profil.email}`}>{profil.email}</a>
+            {profil.github && <a href={profil.github} target="_blank" rel="noreferrer">GitHub</a>}
             {profil.linkedin && <a href={profil.linkedin} target="_blank" rel="noreferrer">LinkedIn</a>}
           </span>
         )}

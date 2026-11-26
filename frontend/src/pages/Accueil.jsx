@@ -8,6 +8,7 @@ import Defilant from "../components/Defilant.jsx";
 import ProjetCard from "../components/ProjetCard.jsx";
 import TiltCard from "../components/TiltCard.jsx";
 import Seo from "../components/Seo.jsx";
+import BoutonGithub from "../components/BoutonGithub.jsx";
 import { useLangue } from "../i18n/Langue.jsx";
 
 export default function Accueil() {
@@ -41,6 +42,7 @@ export default function Accueil() {
           <div className="hero-actions entree" style={{ "--i": 5 }}>
             <Link to="/projets" className="btn">{t("accueil.voirProjets")}</Link>
             <a href={cv} className="btn btn-contour" download>{t("accueil.cv")}</a>
+            <BoutonGithub />
           </div>
         </div>
         <a href="#chiffres" className="scroll-indice" aria-label={t("accueil.descendre")}>
