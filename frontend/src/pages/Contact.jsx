@@ -2,6 +2,7 @@ import useApi from "../hooks/useApi.js";
 import Etat from "../components/Etat.jsx";
 import Reveal from "../components/Reveal.jsx";
 import Seo from "../components/Seo.jsx";
+import { useLangue } from "../i18n/Langue.jsx";
 
 export default function Contact() {
   const { t } = useLangue();

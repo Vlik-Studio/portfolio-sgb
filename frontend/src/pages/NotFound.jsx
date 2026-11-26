@@ -1,5 +1,6 @@
 import { Link } from "react-router";
 import Seo from "../components/Seo.jsx";
+import { useLangue } from "../i18n/Langue.jsx";
 
 export default function NotFound() {
   const { t } = useLangue();

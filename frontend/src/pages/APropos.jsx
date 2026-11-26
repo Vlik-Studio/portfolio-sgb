@@ -3,6 +3,7 @@ import Etat from "../components/Etat.jsx";
 import Frise from "../components/Frise.jsx";
 import Reveal from "../components/Reveal.jsx";
 import Seo from "../components/Seo.jsx";
+import { useLangue } from "../i18n/Langue.jsx";
 
 export default function APropos() {
   const { t } = useLangue();

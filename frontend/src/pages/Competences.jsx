@@ -3,6 +3,7 @@ import Etat from "../components/Etat.jsx";
 import Reveal from "../components/Reveal.jsx";
 import CompetenceGroupe from "../components/CompetenceGroupe.jsx";
 import Seo from "../components/Seo.jsx";
+import { useLangue } from "../i18n/Langue.jsx";
 
 export default function Competences() {
   const { t } = useLangue();
