@@ -814,3 +814,19 @@ input[type="range"] { width: 100%; accent-color: var(--accent); cursor: pointer;
 .bouton-github:hover { border-color: var(--accent); color: var(--accent); transform: translateY(-2px); }
 .btn-github-contact { margin-left: 10px; }
 @media (max-width: 420px) { .bouton-github { display: none; } }
+
+/* définition de la GTB dans le hero */
+.hero-definition {
+  display: inline-flex !important; flex-wrap: wrap; align-items: center; gap: 4px 10px;
+  margin: 14px 0 0; padding: 8px 16px 8px 8px; max-width: 620px;
+  background: var(--accent-doux); border: 1px solid color-mix(in srgb, var(--accent) 35%, transparent);
+  border-radius: 14px; font-size: 0.95rem;
+}
+.hero-definition abbr {
+  text-decoration: none; cursor: help;
+  background: var(--accent); color: var(--accent-texte);
+  font-family: var(--mono); font-weight: 700; font-size: 0.85rem;
+  padding: 3px 10px; border-radius: 8px;
+}
+.hero-definition span:first-of-type { font-weight: 700; color: var(--texte); }
+.hero-definition-texte { color: var(--texte-doux); font-size: 0.85rem; flex-basis: 100%; padding-left: 4px; }

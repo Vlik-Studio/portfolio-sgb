@@ -38,6 +38,11 @@ export default function Accueil() {
             <span className="entree degrade" style={{ "--i": 2 }}>{nom}</span>
           </h1>
           <p className="hero-titre entree" style={{ "--i": 3 }}>{titre}</p>
+          <p className="hero-definition entree" style={{ "--i": 4 }}>
+            <abbr title={t("gtb.long")}>{t("gtb.sigle")}</abbr>
+            <span>{t("gtb.long")}</span>
+            <span className="hero-definition-texte">{t("gtb.texte")}</span>
+          </p>
           <p className="hero-accroche entree" style={{ "--i": 4 }}>{accroche}</p>
           <div className="hero-actions entree" style={{ "--i": 5 }}>
             <Link to="/projets" className="btn">{t("accueil.voirProjets")}</Link>
