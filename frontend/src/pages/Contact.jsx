@@ -4,6 +4,7 @@ import Reveal from "../components/Reveal.jsx";
 import Seo from "../components/Seo.jsx";
 
 export default function Contact() {
+  const { t } = useLangue();
   const { data: profil, loading, error } = useApi("/api/profil");
 
   if (!profil) return <div className="container"><Etat loading={loading} error={error} /></div>;
@@ -12,33 +13,33 @@ export default function Contact() {
 
   return (
     <div className="container page-haut contact">
-      <Seo titre="Contact" description="Contacter Ludovic Grambert, technicien GTB en alternance — email et CV." />
+      <Seo titre={t("nav.contact")} description={t("seo.contact")} />
       <header className="page-tete">
-        <p className="surtitre mono entree" style={{ "--i": 0 }}>Contact</p>
-        <h1 className="entree" style={{ "--i": 1 }}>Travaillons <span className="degrade">ensemble</span></h1>
-        <p className="intro entree" style={{ "--i": 2 }}>Une question, un projet GTB ou une opportunité ? Écrivez-moi.</p>
+        <p className="surtitre mono entree" style={{ "--i": 0 }}>{t("nav.contact")}</p>
+        <h1 className="entree" style={{ "--i": 1 }}>{t("contact.titreA")} <span className="degrade">{t("contact.titreB")}</span></h1>
+        <p className="intro entree" style={{ "--i": 2 }}>{t("contact.intro")}</p>
       </header>
 
       <Reveal effet="zoom">
-        <a className="contact-email" href={`mailto:${email}?subject=Contact depuis votre portfolio`}>
+        <a className="contact-email" href={`mailto:${email}?subject=${encodeURIComponent(t("email.sujet"))}`}>
           {email} <span aria-hidden="true">↗</span>
         </a>
       </Reveal>
 
       <div className="grille grille-2">
         <Reveal className="card">
-          <h3>Coordonnées</h3>
+          <h3>{t("contact.coordonnees")}</h3>
           <ul className="liste-simple">
             <li><span className="mono label">EMAIL</span> <a href={`mailto:${email}`}>{email}</a></li>
-            {linkedin && <li><span className="mono label">LINKEDIN</span> <a href={linkedin} target="_blank" rel="noreferrer">Mon profil</a></li>}
-            {github && <li><span className="mono label">GITHUB</span> <a href={github} target="_blank" rel="noreferrer">Mon GitHub</a></li>}
-            <li><span className="mono label">LIEU</span> {localisation} · {permis}</li>
+            {linkedin && <li><span className="mono label">LINKEDIN</span> <a href={linkedin} target="_blank" rel="noreferrer">{t("contact.profil")}</a></li>}
+            {github && <li><span className="mono label">GITHUB</span> <a href={github} target="_blank" rel="noreferrer">{t("contact.github")}</a></li>}
+            <li><span className="mono label">{t("contact.lieu")}</span> {localisation} · {permis}</li>
           </ul>
         </Reveal>
         <Reveal className="card" delai={120}>
-          <h3>Mon CV</h3>
+          <h3>{t("contact.cv")}</h3>
           <p>{disponibilite}</p>
-          <a className="btn btn-contour" href={cv} target="_blank" rel="noreferrer">Ouvrir le CV (PDF)</a>
+          <a className="btn btn-contour" href={cv} target="_blank" rel="noreferrer">{t("contact.ouvrirCv")}</a>
         </Reveal>
       </div>
     </div>

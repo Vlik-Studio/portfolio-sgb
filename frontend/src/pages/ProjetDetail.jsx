@@ -5,6 +5,7 @@ import Reveal from "../components/Reveal.jsx";
 import Seo from "../components/Seo.jsx";
 
 export default function ProjetDetail() {
+  const { t } = useLangue();
   const { slug } = useParams(); // /projets/supervision-energetique
   const { data: projet, loading, error } = useApi(`/api/projets/${slug}`);
   const { data: projets } = useApi("/api/projets");
@@ -12,8 +13,8 @@ export default function ProjetDetail() {
   if (!projet) {
     return (
       <div className="container page-haut">
-        <Etat loading={loading} error={error === "Erreur 404" ? "projet introuvable" : error} />
-        {!loading && <Link to="/projets" className="lien-fleche">← Retour aux projets</Link>}
+        <Etat loading={loading} error={error === "Erreur 404" ? t("detail.introuvable") : error} />
+        {!loading && <Link to="/projets" className="lien-fleche">{t("detail.retour")}</Link>}
       </div>
     );
   }
@@ -28,12 +29,12 @@ export default function ProjetDetail() {
   return (
     <article className="container page-haut detail">
       <Seo titre={titre} description={projet.resume} />
-      <Link to="/projets" className="lien-fleche entree" style={{ "--i": 0 }}>← Tous les projets</Link>
+      <Link to="/projets" className="lien-fleche entree" style={{ "--i": 0 }}>{t("detail.retour")}</Link>
 
       <header className="detail-tete">
         {index >= 0 && (
           <p className="surtitre mono entree" style={{ "--i": 1 }}>
-            Projet {String(index + 1).padStart(2, "0")} / {String(projets.length).padStart(2, "0")}
+            {t("detail.projet")} {String(index + 1).padStart(2, "0")} / {String(projets.length).padStart(2, "0")}
           </p>
         )}
         <h1 className="entree" style={{ "--i": 2 }}>{titre}</h1>
@@ -52,11 +53,11 @@ export default function ProjetDetail() {
       <div className="detail-grille">
         <div>
           <Reveal>
-            <h2>Contexte</h2>
+            <h2>{t("detail.contexte")}</h2>
             <p>{contexte}</p>
           </Reveal>
           <Reveal>
-            <h2>Ce que j'ai réalisé</h2>
+            <h2>{t("detail.realise")}</h2>
             <ol className="etapes">
               {realisations.map((r, i) => (
                 <Reveal as="li" key={r} effet="gauche" delai={i * 90}>
@@ -70,11 +71,11 @@ export default function ProjetDetail() {
 
         <aside className="detail-cote">
           <Reveal effet="droite" className="resultat">
-            <span className="mono">RÉSULTAT</span>
+            <span className="mono">{t("detail.resultat")}</span>
             <strong>{resultat}</strong>
           </Reveal>
           <Reveal effet="droite" delai={120} className="card">
-            <h3>Technologies et outils</h3>
+            <h3>{t("detail.technos")}</h3>
             <ul className="tags">
               {technos.map((t) => <li key={t} className="tag tag-techno">{t}</li>)}
             </ul>
@@ -83,13 +84,13 @@ export default function ProjetDetail() {
       </div>
 
       {precedent && suivant && (
-        <nav className="detail-nav" aria-label="Autres projets">
+        <nav className="detail-nav" aria-label={t("detail.autres")}>
           <Link to={`/projets/${precedent.slug}`} className="card detail-nav-lien">
-            <span className="mono">← Précédent</span>
+            <span className="mono">{t("detail.precedent")}</span>
             <strong>{precedent.titre}</strong>
           </Link>
           <Link to={`/projets/${suivant.slug}`} className="card detail-nav-lien suivant">
-            <span className="mono">Suivant →</span>
+            <span className="mono">{t("detail.suivant")}</span>
             <strong>{suivant.titre}</strong>
           </Link>
         </nav>

@@ -1,0 +1,274 @@
+[
+  {
+    "slug": "controle-comptage-site-logistique",
+    "titre": "Electricity metering check on a logistics site",
+    "image": "/images/projets/comptage-electrique.svg",
+    "imageAlt": "Grid of electricity meters linked to the EcoStruxure EBO supervisor",
+    "annee": null,
+    "role": "BMS Technician — Caldya",
+    "resume": "Checking data from 55 electricity meters, from M221 PLCs up to EcoStruxure Building Operation, on a logistics site near Roissy airport.",
+    "tags": [
+      "BMS",
+      "Energy",
+      "Data"
+    ],
+    "technos": [
+      "EcoStruxure EBO",
+      "Modicon M221",
+      "Machine Expert Basic",
+      "Metering"
+    ],
+    "contexte": "On a logistics site near Roissy, electricity metering data must reach the BMS reliably to monitor consumption.",
+    "realisations": [
+      "Checking data from 55 meters, from the M221 PLCs up to EBO",
+      "Identifying and tracking discrepancies and installation punch-list items",
+      "Writing the metering technical report"
+    ],
+    "resultat": "55 electricity meters checked end to end",
+    "mise_en_avant": true
+  },
+  {
+    "slug": "batiment-intelligent-sans-surveillance",
+    "titre": "Smart building without surveillance",
+    "image": "/images/projets/batiment-intelligent.svg",
+    "imageAlt": "Diagram of a building connected to a BMS, an AI and a cybersecurity shield",
+    "annee": 2026,
+    "role": "Project manager",
+    "resume": "ESIEE-IT Project Lab: leading a team of 5 (BMS, AI, cybersecurity) up to the scoping review.",
+    "tags": [
+      "BMS",
+      "AI",
+      "Cybersecurity"
+    ],
+    "technos": [
+      "BMS",
+      "AI",
+      "Cybersecurity",
+      "Project management"
+    ],
+    "contexte": "Team project of the ESIEE-IT Project Lab: designing a smart building that optimises its operation with a BMS and AI, without monitoring its occupants.",
+    "realisations": [
+      "Leading a multidisciplinary team of 5 (BMS, AI, cybersecurity)",
+      "Scoping the need, the perimeter and the deliverables",
+      "Preparing and presenting the scoping review"
+    ],
+    "resultat": "Team of 5 led to the scoping review",
+    "mise_en_avant": true
+  },
+  {
+    "slug": "supervision-energetique",
+    "titre": "Energy monitoring app",
+    "image": "/images/projets/supervision-energetique.svg",
+    "imageAlt": "Mobile app showing power, voltage, current and energy of a smart plug",
+    "annee": null,
+    "role": "Personal / academic project",
+    "resume": "Mobile app controlling a smart plug and displaying W, V, A and kWh, through a Raspberry Pi, Domoticz and Mosquitto.",
+    "tags": [
+      "IoT",
+      "Energy"
+    ],
+    "technos": [
+      "Flutter",
+      "MQTT",
+      "Z-Wave",
+      "Raspberry Pi",
+      "Domoticz",
+      "Mosquitto"
+    ],
+    "contexte": "Making an appliance's electricity consumption visible and controlling it remotely from a smartphone.",
+    "realisations": [
+      "Setting up a home-automation gateway on a Raspberry Pi with Domoticz",
+      "Exchanging measurements and commands over MQTT through the Mosquitto broker",
+      "Flutter mobile app: on / off control of the Z-Wave smart plug",
+      "Real-time display of power (W), voltage (V), current (A) and energy (kWh)"
+    ],
+    "resultat": "4 electrical values displayed in real time: W, V, A and kWh",
+    "mise_en_avant": true
+  },
+  {
+    "slug": "prospection-bacs",
+    "titre": "BMS prospecting and the BACS decree",
+    "image": "/images/projets/prospection.svg",
+    "imageAlt": "Map of the Val-d'Oise with targeted buildings and sent emails",
+    "annee": null,
+    "role": "BMS Technician — Caldya",
+    "resume": "Email campaign helping buildings in the Val-d'Oise, then the Île-de-France region, get ahead of the BACS decree.",
+    "tags": [
+      "BMS",
+      "Energy"
+    ],
+    "technos": [
+      "BACS decree",
+      "Emailing",
+      "Prospecting"
+    ],
+    "contexte": "The French BACS decree requires a BMS in many commercial buildings: owners benefit from equipping before the deadline.",
+    "realisations": [
+      "Finding prospects in the Val-d'Oise",
+      "Preparing an email campaign",
+      "Highlighting the obligations of the BACS decree"
+    ],
+    "resultat": "Val-d'Oise targeted first, then extended to Île-de-France",
+    "mise_en_avant": false
+  },
+  {
+    "slug": "refrigerateur-intelligent",
+    "titre": "AI / IoT smart fridge",
+    "image": "/images/projets/refrigerateur-intelligent.svg",
+    "imageAlt": "Fridge with a recognition camera and a list of expiry dates",
+    "annee": null,
+    "role": "Academic project · thesis in English",
+    "resume": "Product recognition by computer vision and expiry-date tracking to reduce food waste.",
+    "tags": [
+      "AI",
+      "IoT"
+    ],
+    "technos": [
+      "Computer vision",
+      "IoT",
+      "English"
+    ],
+    "contexte": "Food waste often starts in the fridge: forgotten products go past their expiry date.",
+    "realisations": [
+      "Study of a connected fridge that recognises products by vision",
+      "Expiry-date tracking and alerts before expiry",
+      "Writing a thesis and giving an oral presentation in English"
+    ],
+    "resultat": "Thesis written and presented in English",
+    "mise_en_avant": false
+  },
+  {
+    "slug": "portfolio-full-stack",
+    "titre": "This portfolio, full-stack",
+    "image": "/images/projets/portfolio.svg",
+    "imageAlt": "Browser window connected to an API, with a 3D building",
+    "annee": 2026,
+    "role": "Course project · Master SGB",
+    "resume": "React site + Express API without a database: JSON content, search, dark mode, bilingual, 3D BMS demo and scroll animations.",
+    "tags": [
+      "Web",
+      "Development"
+    ],
+    "technos": [
+      "React",
+      "React Router",
+      "Vite",
+      "Node.js",
+      "Express",
+      "Canvas 2D",
+      "Git / GitHub"
+    ],
+    "contexte": "Main project of the Front-end / Back-end Web Development module: presenting my background and projects on a site I can keep improving on my own.",
+    "realisations": [
+      "Express API serving the profile, projects, background and skills as JSON, in French and English",
+      "React front end with routing, search combined with filters and a remembered light / dark mode",
+      "Interactive 3D building with a working BMS and an electrical metering dashboard, drawn in Canvas",
+      "Scroll animations, animated counters and 3D tilting cards"
+    ],
+    "resultat": "A full-stack site I update by editing simple JSON files",
+    "mise_en_avant": false
+  },
+  {
+    "slug": "irve-phase-chantier",
+    "titre": "EV charging station — construction phase",
+    "image": "/images/projets/irve.svg",
+    "imageAlt": "Electric vehicle charging station next to a construction schedule",
+    "annee": null,
+    "role": "Construction planning",
+    "resume": "Construction-phase schedule for installing an electric vehicle charging infrastructure.",
+    "tags": [
+      "Energy"
+    ],
+    "technos": [
+      "EV charging",
+      "Scheduling",
+      "Site management"
+    ],
+    "contexte": "Installing a charging station involves several trades that must be coordinated on site.",
+    "realisations": [
+      "Breaking the construction phase down into steps",
+      "Sequencing and timing the tasks in a schedule",
+      "Overall view to coordinate the contractors"
+    ],
+    "resultat": "A structured, step-by-step construction schedule",
+    "mise_en_avant": false
+  },
+  {
+    "slug": "base-de-donnees-tennis-de-table",
+    "titre": "Database for a table-tennis club",
+    "image": "/images/projets/base-de-donnees.svg",
+    "imageAlt": "Entity-relationship diagram linking players, clubs, matches and training",
+    "annee": null,
+    "role": "Course project · Merise",
+    "resume": "Conceptual data model (MCD) and data dictionary to manage players, clubs, competitions, matches and training.",
+    "tags": [
+      "Data"
+    ],
+    "technos": [
+      "Merise",
+      "Conceptual data model",
+      "Data dictionary"
+    ],
+    "contexte": "A table-tennis club needs to track its players, rankings, matches and training in a consistent database.",
+    "realisations": [
+      "Writing the data dictionary",
+      "Modelling the entities: players, clubs, categories, rankings, competitions, venues, results, matches, opponents, match analyses, coaches, training camps and training content",
+      "Defining the relationships and cardinalities between entities"
+    ],
+    "resultat": "A conceptual model covering 13 business concepts",
+    "mise_en_avant": false
+  },
+  {
+    "slug": "edugest",
+    "titre": "EduGest — student grade analysis",
+    "image": "/images/projets/edugest.svg",
+    "imageAlt": "JavaScript code editor next to a histogram of grades",
+    "annee": null,
+    "role": "Course exercises · JavaScript",
+    "resume": "Node.js scripts computing averages, honours and group statistics from a list of students.",
+    "tags": [
+      "Development",
+      "Data"
+    ],
+    "technos": [
+      "JavaScript",
+      "Node.js",
+      "ES modules"
+    ],
+    "contexte": "Learning modern JavaScript on a concrete case: analysing a class's grades.",
+    "realisations": [
+      "Data handling with filter, map, destructuring and the spread operator",
+      "Computing averages and assigning honours",
+      "Statistics per student group",
+      "Organising the code into modules (etudiants.js, analyse.js)"
+    ],
+    "resultat": "Averages, honours and group statistics computed automatically",
+    "mise_en_avant": false
+  },
+  {
+    "slug": "jeu-du-pendu",
+    "titre": "Hangman game in Python",
+    "image": "/images/projets/pendu.svg",
+    "imageAlt": "Hangman gallows with a partially guessed word and a scoreboard",
+    "annee": null,
+    "role": "Learning project · Python",
+    "resume": "Hangman game with a saved list of players and statistics of games played and won.",
+    "tags": [
+      "Development"
+    ],
+    "technos": [
+      "Python",
+      "Text files",
+      "Flowcharts"
+    ],
+    "contexte": "Learning to structure a Python program, from the flowchart to the complete game.",
+    "realisations": [
+      "Structuring the program into phases, with flowcharts",
+      "Words drawn from an external file",
+      "Recognising existing players and creating new ones",
+      "Saving games played and won after each game"
+    ],
+    "resultat": "Player statistics kept from one game to the next",
+    "mise_en_avant": false
+  }
+]

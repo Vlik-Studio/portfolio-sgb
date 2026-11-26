@@ -1,8 +1,10 @@
-// React 19 place automatiquement <title> et <meta> dans le <head> de la page
-const SITE = "Ludovic Grambert — GTB & Smart Building";
+import { useLangue } from "../i18n/Langue.jsx";
 
+// React 19 place automatiquement <title> et <meta> dans le <head> de la page
 export default function Seo({ titre, description }) {
-  const titreComplet = titre ? `${titre} · ${SITE}` : SITE;
+  const { t } = useLangue();
+  const site = t("seo.site");
+  const titreComplet = titre ? `${titre} · ${site}` : site;
   return (
     <>
       <title>{titreComplet}</title>

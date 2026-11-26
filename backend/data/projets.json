@@ -144,7 +144,7 @@
     "imageAlt": "Fenêtre de navigateur reliée à une API, avec un bâtiment en 3D",
     "annee": 2026,
     "role": "Projet de cours · Master SGB",
-    "resume": "Site React + API Express sans base de données : contenu en JSON, recherche, mode sombre, bâtiment 3D et animations au scroll.",
+    "resume": "Site React + API Express sans base de données : contenu en JSON, recherche, mode sombre, bilingue, démo GTB en 3D et animations au scroll.",
     "tags": [
       "Web",
       "Développement"
@@ -160,9 +160,9 @@
     ],
     "contexte": "Projet fil rouge du module Développement Web Frontend / Backend : présenter mon parcours et mes projets sur un site que je peux faire évoluer seul.",
     "realisations": [
-      "API Express qui sert le profil, les projets, le parcours et les compétences en JSON",
+      "API Express qui sert le profil, les projets, le parcours et les compétences en JSON, en français et en anglais",
       "Frontend React avec routage, recherche combinée aux filtres et mode clair / sombre mémorisé",
-      "Bâtiment 3D animé dessiné en Canvas, sans librairie externe",
+      "Bâtiment 3D interactif avec une GTB fonctionnelle et un tableau de supervision du comptage, dessinés en Canvas",
       "Animations au scroll, compteurs animés et cartes inclinables en 3D"
     ],
     "resultat": "Un site full-stack que je mets à jour en modifiant de simples fichiers JSON",

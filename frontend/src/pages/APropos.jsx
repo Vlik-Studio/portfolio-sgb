@@ -5,6 +5,7 @@ import Reveal from "../components/Reveal.jsx";
 import Seo from "../components/Seo.jsx";
 
 export default function APropos() {
+  const { t } = useLangue();
   const { data: profil, loading, error } = useApi("/api/profil");
   const parcours = useApi("/api/parcours");
 
@@ -15,11 +16,11 @@ export default function APropos() {
 
   return (
     <div className="container page-haut apropos">
-      <Seo titre="À propos" description={`${titre} — parcours, langues et centres d'intérêt.`} />
+      <Seo titre={t("nav.apropos")} description={`${titre} — ${t("seo.apropos")}`} />
       <header className="apropos-tete">
         <div className="avatar entree" style={{ "--i": 0 }} aria-hidden="true">{initiales}</div>
         <div>
-          <p className="surtitre mono entree" style={{ "--i": 1 }}>À propos</p>
+          <p className="surtitre mono entree" style={{ "--i": 1 }}>{t("apropos.surtitre")}</p>
           <h1 className="entree" style={{ "--i": 2 }}>{prenom} <span className="degrade">{nom}</span></h1>
           <p className="role entree" style={{ "--i": 3 }}>{titre}</p>
         </div>
@@ -31,18 +32,18 @@ export default function APropos() {
             <Reveal as="p" key={paragraphe} delai={i * 100}>{paragraphe}</Reveal>
           ))}
           <Reveal delai={300}>
-            <a className="btn btn-contour" href={cv} download>Télécharger mon CV (PDF)</a>
+            <a className="btn btn-contour" href={cv} download>{t("apropos.cv")}</a>
           </Reveal>
         </div>
 
         <Reveal as="aside" effet="droite" className="card apropos-infos">
-          <h3>Langues</h3>
+          <h3>{t("apropos.langues")}</h3>
           <ul className="liste-simple">
             {langues?.map(({ langue, niveau }) => (
               <li key={langue}><strong>{langue}</strong> — {niveau}</li>
             ))}
           </ul>
-          <h3>Centres d'intérêt</h3>
+          <h3>{t("apropos.interets")}</h3>
           <ul className="tags">
             {interets?.map((i) => <li key={i} className="tag">{i}</li>)}
           </ul>
@@ -50,7 +51,7 @@ export default function APropos() {
         </Reveal>
       </div>
 
-      <Reveal as="h2" className="titre-section">Mon <span className="degrade">parcours</span></Reveal>
+      <Reveal as="h2" className="titre-section">{t("apropos.parcoursA")} <span className="degrade">{t("apropos.parcoursB")}</span></Reveal>
       {parcours.data
         ? <Frise etapes={parcours.data} />
         : <Etat loading={parcours.loading} error={parcours.error} />}

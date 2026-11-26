@@ -1,0 +1,74 @@
+[
+  {
+    "groupe": "BMS & controls",
+    "items": [
+      {
+        "nom": "Schneider EcoStruxure EBO",
+        "niveau": 3
+      },
+      {
+        "nom": "Machine Expert Basic (M221)",
+        "niveau": 2
+      },
+      {
+        "nom": "Belimo controls",
+        "niveau": 2
+      },
+      {
+        "nom": "On-site commissioning",
+        "niveau": 3
+      }
+    ]
+  },
+  {
+    "groupe": "Energy & regulations",
+    "items": [
+      {
+        "nom": "BACS decree",
+        "niveau": 2
+      },
+      {
+        "nom": "Electricity metering",
+        "niveau": 3
+      },
+      {
+        "nom": "Technical reports",
+        "niveau": 3
+      }
+    ]
+  },
+  {
+    "groupe": "IoT & home automation",
+    "items": [
+      {
+        "nom": "MQTT / Mosquitto",
+        "niveau": 2
+      },
+      {
+        "nom": "Z-Wave",
+        "niveau": 2
+      },
+      {
+        "nom": "Raspberry Pi · Domoticz",
+        "niveau": 2
+      }
+    ]
+  },
+  {
+    "groupe": "Development",
+    "items": [
+      {
+        "nom": "Flutter / Dart",
+        "niveau": 1
+      },
+      {
+        "nom": "JavaScript · React · Node.js",
+        "niveau": 1
+      },
+      {
+        "nom": "Python",
+        "niveau": 1
+      }
+    ]
+  }
+]

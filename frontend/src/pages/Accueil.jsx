@@ -6,9 +6,12 @@ import Reveal from "../components/Reveal.jsx";
 import Compteur from "../components/Compteur.jsx";
 import Defilant from "../components/Defilant.jsx";
 import ProjetCard from "../components/ProjetCard.jsx";
+import TiltCard from "../components/TiltCard.jsx";
 import Seo from "../components/Seo.jsx";
+import { useLangue } from "../i18n/Langue.jsx";
 
 export default function Accueil() {
+  const { t, langue } = useLangue();
   const { data: profil, loading, error } = useApi("/api/profil");
   const { data: projets } = useApi("/api/projets");
   const { data: parcours } = useApi("/api/parcours");
@@ -21,12 +24,13 @@ export default function Accueil() {
   return (
     <>
       <Seo description={presentation} />
+
       {/* ===== HERO ===== */}
       <section className="hero">
-        <Hero3D />
+        <Hero3D libelle={langue === "fr" ? "GTB" : "BMS"} />
         <div className="container hero-contenu">
           <p className="surtitre mono entree" style={{ "--i": 0 }}>
-            <span className="voyant-point" /> {localisation} · en alternance chez Caldya
+            <span className="voyant-point" /> {localisation} · {t("accueil.alternance")}
           </p>
           <h1 className="hero-nom">
             <span className="entree" style={{ "--i": 1 }}>{prenom}</span>{" "}
@@ -35,11 +39,11 @@ export default function Accueil() {
           <p className="hero-titre entree" style={{ "--i": 3 }}>{titre}</p>
           <p className="hero-accroche entree" style={{ "--i": 4 }}>{accroche}</p>
           <div className="hero-actions entree" style={{ "--i": 5 }}>
-            <Link to="/projets" className="btn">Voir mes projets</Link>
-            <a href={cv} className="btn btn-contour" download>Télécharger mon CV</a>
+            <Link to="/projets" className="btn">{t("accueil.voirProjets")}</Link>
+            <a href={cv} className="btn btn-contour" download>{t("accueil.cv")}</a>
           </div>
         </div>
-        <a href="#chiffres" className="scroll-indice" aria-label="Descendre">
+        <a href="#chiffres" className="scroll-indice" aria-label={t("accueil.descendre")}>
           <span className="scroll-souris" aria-hidden="true" />
         </a>
       </section>
@@ -59,18 +63,18 @@ export default function Accueil() {
           </div>
         </section>
 
-        {/* ===== PRÉSENTATION + DOMAINES ===== */}
+        {/* ===== CE QUE JE FAIS ===== */}
         <section className="section">
           <Reveal className="section-tete">
-            <p className="surtitre mono">01 — Ce que je fais</p>
-            <h2 className="titre-section">Des bâtiments qui consomment moins, <span className="degrade">pilotés intelligemment.</span></h2>
+            <p className="surtitre mono">{t("accueil.s1")}</p>
+            <h2 className="titre-section">{t("accueil.s1a")} <span className="degrade">{t("accueil.s1b")}</span></h2>
             <p className="intro">{presentation}</p>
           </Reveal>
           <div className="domaines">
-            {domaines?.map(({ titre: t, texte }, i) => (
-              <Reveal key={t} className="card domaine" delai={i * 120}>
+            {domaines?.map(({ titre: d, texte }, i) => (
+              <Reveal key={d} className="card domaine" delai={i * 120}>
                 <span className="domaine-num mono">0{i + 1}</span>
-                <h3>{t}</h3>
+                <h3>{d}</h3>
                 <p>{texte}</p>
               </Reveal>
             ))}
@@ -81,10 +85,10 @@ export default function Accueil() {
         <section className="section">
           <Reveal className="section-tete section-tete-ligne">
             <div>
-              <p className="surtitre mono">02 — Projets phares</p>
-              <h2 className="titre-section">Du terrain à la donnée</h2>
+              <p className="surtitre mono">{t("accueil.s2")}</p>
+              <h2 className="titre-section">{t("accueil.s2titre")}</h2>
             </div>
-            <Link to="/projets" className="lien-fleche">Les {projets?.length ?? ""} projets →</Link>
+            <Link to="/projets" className="lien-fleche">{t("accueil.s2lien", { n: projets?.length ?? "" })}</Link>
           </Reveal>
           <div className="grille">
             {phares.map((projet, i) => (
@@ -95,15 +99,46 @@ export default function Accueil() {
           </div>
         </section>
 
+        {/* ===== DÉMO GTB ===== */}
+        <section className="section">
+          <Reveal className="section-tete">
+            <p className="surtitre mono">{t("accueil.s3")}</p>
+            <h2 className="titre-section">{t("accueil.s3titre")}</h2>
+            <p className="intro">{t("accueil.s3texte")}</p>
+          </Reveal>
+          <div className="grille grille-2">
+            <Reveal>
+              <TiltCard className="card demo-carte">
+                <Link to="/demo/batiment" className="demo-carte-lien">
+                  <span className="demo-icone" aria-hidden="true">▦</span>
+                  <h3>{t("accueil.s3bat")}</h3>
+                  <p>{t("accueil.s3batTexte")}</p>
+                  <span className="lien-fleche">{t("accueil.s3ouvrir")}</span>
+                </Link>
+              </TiltCard>
+            </Reveal>
+            <Reveal delai={120}>
+              <TiltCard className="card demo-carte">
+                <Link to="/demo/comptage" className="demo-carte-lien">
+                  <span className="demo-icone" aria-hidden="true">⚡</span>
+                  <h3>{t("accueil.s3td")}</h3>
+                  <p>{t("accueil.s3tdTexte")}</p>
+                  <span className="lien-fleche">{t("accueil.s3ouvrir")}</span>
+                </Link>
+              </TiltCard>
+            </Reveal>
+          </div>
+        </section>
+
         {/* ===== PARCOURS EN BREF ===== */}
         {parcours && (
           <section className="section">
             <Reveal className="section-tete section-tete-ligne">
               <div>
-                <p className="surtitre mono">03 — Parcours</p>
-                <h2 className="titre-section">Toujours en alternance</h2>
+                <p className="surtitre mono">{t("accueil.s4")}</p>
+                <h2 className="titre-section">{t("accueil.s4titre")}</h2>
               </div>
-              <Link to="/a-propos" className="lien-fleche">Mon parcours complet →</Link>
+              <Link to="/a-propos" className="lien-fleche">{t("accueil.s4lien")}</Link>
             </Reveal>
             <ol className="mini-frise">
               {[...parcours].reverse().sort((a, b) => parseInt(a.periode) - parseInt(b.periode)).map((etape, i) => (
@@ -118,11 +153,11 @@ export default function Accueil() {
 
         {/* ===== APPEL À L'ACTION ===== */}
         <Reveal as="section" effet="zoom" className="cta">
-          <h2>Un projet GTB, une alternance, une question ?</h2>
-          <p>Je réponds rapidement par email.</p>
+          <h2>{t("cta.titre")}</h2>
+          <p>{t("cta.texte")}</p>
           <div className="hero-actions">
-            <a className="btn" href={`mailto:${email}?subject=Contact depuis votre portfolio`}>M'écrire</a>
-            <Link className="btn btn-contour" to="/contact">Toutes mes coordonnées</Link>
+            <a className="btn" href={`mailto:${email}?subject=${encodeURIComponent(t("email.sujet"))}`}>{t("cta.ecrire")}</a>
+            <Link className="btn btn-contour" to="/contact">{t("cta.coordonnees")}</Link>
           </div>
         </Reveal>
       </div>

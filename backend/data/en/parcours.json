@@ -1,0 +1,44 @@
+[
+  {
+    "periode": "2025 – present",
+    "type": "formation",
+    "titre": "Master's in Smart & Green Building",
+    "lieu": "ESIEE-IT · work-study",
+    "description": "IT engineering management: BMS, IoT, energy data, cybersecurity and project management."
+  },
+  {
+    "periode": "2024 – 2025",
+    "type": "formation",
+    "titre": "Professional Bachelor's in Home Automation",
+    "lieu": "ESIEE-IT · work-study",
+    "description": "Home automation, connected devices and building automation."
+  },
+  {
+    "periode": "2022 – present",
+    "type": "experience",
+    "titre": "BMS Technician — Caldya GTB",
+    "lieu": "Herblay (95) · work-study",
+    "description": "Programming on Schneider EcoStruxure Building Operation (databases, Device Administrator), on-site commissioning including Belimo controls, checking 55 meters (M221 to EBO), technical reports and BACS prospecting in the Val-d'Oise."
+  },
+  {
+    "periode": "2024",
+    "type": "formation",
+    "titre": "BTS in Electrical Engineering",
+    "lieu": "Lycée Jean Perrin · work-study",
+    "description": "Electrical installations, automation and power distribution."
+  },
+  {
+    "periode": "2022",
+    "type": "formation",
+    "titre": "STI2D Baccalaureate, with honours",
+    "lieu": "Lycée Jean Perrin",
+    "description": "Industrial science, technology and sustainable development."
+  },
+  {
+    "periode": "2020",
+    "type": "experience",
+    "titre": "Administrative assistant — Tax Office",
+    "lieu": "Cergy (95) · seasonal job",
+    "description": "Sorting, filing and data entry."
+  }
+]

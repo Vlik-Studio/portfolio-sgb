@@ -9,7 +9,7 @@ Le site est une application full-stack : un frontend React qui consomme une API 
 
 | Partie | Technologies |
 |---|---|
-| Frontend | React 19, React Router 7, Vite, CSS (sans framework), Canvas 2D pour la 3D |
+| Frontend | React 19, React Router 7, Vite, CSS (sans framework), Canvas 2D pour la 3D, simulations en JavaScript |
 | Backend | Node.js, Express 5, CORS |
 | Données | Fichiers JSON (`backend/data/`), sans base de données |
 | Hébergement | Vercel : frontend statique + API en fonction serverless |
@@ -17,6 +17,9 @@ Le site est une application full-stack : un frontend React qui consomme une API 
 ## Fonctionnalités
 
 - 6 pages : Accueil, À propos, Projets, Détail d'un projet, Compétences, Contact (+ page 404)
+- **Version française / anglaise** avec un bouton FR / EN (contenu servi par l'API avec `?lang=en`)
+- **Démo GTB en 3D** : bâtiment de 6 zones avec éclairage, stores, CVC, ventilation, sondes de température et de CO₂, comptage par usage, alarmes, scénarios et journal d'événements (données simulées)
+- **Supervision du comptage** façon TD électrique : 55 compteurs sur 4 automates M221, statut « compte / ne compte pas / prog horaire », courbe de charge et tableau d'autocontrôle (données simulées)
 - Bâtiment intelligent en 3D animé (Canvas, sans librairie) qui suit la souris
 - Animations au scroll, compteurs animés, cartes inclinables en 3D
 - Recherche de projets combinée à un filtre par thème
@@ -56,9 +59,12 @@ L'API se teste avec `backend/tests.http` (extension VS Code *REST Client*).
 | `GET /api/competences` | compétences par groupe |
 | `GET /api/parcours` | formations et expériences |
 
+Ajouter `?lang=en` à n'importe quelle route pour la version anglaise (fichiers `backend/data/en/`).
+
 ## Modifier le contenu
 
-Tout le texte du site se trouve dans `backend/data/`. Pour ajouter un projet, ajouter un objet dans `projets.json`, puis :
+Tout le texte du site se trouve dans `backend/data/` (français) et `backend/data/en/` (anglais). Les textes de l'interface (menus, boutons) sont dans `frontend/src/i18n/textes.js`.
+Pour ajouter un projet, ajouter un objet dans `projets.json` **et** dans `en/projets.json` (même `slug`), puis :
 ```bash
 git add backend/data/projets.json
 git commit -m "Ajout du projet ..."
@@ -87,7 +93,7 @@ portfolio-sgb/
 │   ├── server.js            ← app Express (exportée pour Vercel)
 │   ├── routes/contenu.js    ← routes /api/...
 │   ├── lib/donnees.js       ← chargement des JSON
-│   ├── data/                ← tout le contenu du site
+│   ├── data/                ← tout le contenu du site (data/en/ : version anglaise)
 │   └── tests.http
 └── frontend/
     ├── index.html
@@ -96,9 +102,11 @@ portfolio-sgb/
     ├── public/              ← CV, favicon, images des projets
     └── src/
         ├── App.jsx, main.jsx, api.js, index.css
+        ├── i18n/            ← langue FR / EN et textes de l'interface
+        ├── demo/            ← simulations GTB et comptage, bâtiment 3D, courbes
         ├── hooks/           ← useApi, useTheme, useEnVue
         ├── components/      ← Hero3D, Reveal, Compteur, TiltCard, ProjetCard, Navbar…
-        └── pages/           ← Accueil, APropos, Projets, ProjetDetail, Competences, Contact, NotFound
+        └── pages/           ← Accueil, APropos, Projets, ProjetDetail, Competences, Contact, DemoBatiment, DemoComptage, NotFound
 ```
 
 ## Auteur

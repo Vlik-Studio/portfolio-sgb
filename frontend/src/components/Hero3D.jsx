@@ -73,8 +73,10 @@ function lireCouleurs() {
 }
 
 // --- Composant -------------------------------------------------------------
-export default function Hero3D() {
+export default function Hero3D({ libelle = "GTB" }) {
   const canvasRef = useRef(null);
+  const libelleRef = useRef(libelle);
+  libelleRef.current = libelle; // lu à chaque image : suit le changement de langue
 
   useEffect(() => {
     const canvas = canvasRef.current;
@@ -204,7 +206,7 @@ export default function Hero3D() {
       ctx.fill();
       ctx.font = "500 11px 'IBM Plex Mono', monospace";
       ctx.fillStyle = couleurs.texte;
-      ctx.fillText("GTB", hub.x + 12, hub.y + 4);
+      ctx.fillText(libelleRef.current, hub.x + 12, hub.y + 4);
       ctx.globalAlpha = 1;
     }
 

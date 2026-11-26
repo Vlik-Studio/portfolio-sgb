@@ -21,3 +21,6 @@ GET http://localhost:3000/api/competences
 
 ### Parcours
 GET http://localhost:3000/api/parcours
+
+### Version anglaise
+GET http://localhost:3000/api/projets?lang=en

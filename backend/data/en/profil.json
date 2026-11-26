@@ -1,0 +1,81 @@
+{
+  "prenom": "Ludovic",
+  "nom": "Grambert",
+  "initiales": "LG",
+  "titre": "BMS Technician · Work-study Master's student in Smart & Green Building",
+  "accroche": "From the job site to the design office, I make buildings more energy-efficient.",
+  "presentation": "BMS technician on a work-study contract at Caldya since 2022, from job sites to the design office on Schneider EcoStruxure. As a Master's student at ESIEE-IT, I connect BMS, IoT and energy data to make buildings more efficient and compliant with the French BACS decree.",
+  "apropos": [
+    "After a STI2D baccalaureate and a vocational degree (BTS) in electrical engineering, I went on to a professional Bachelor's in home automation and then a Master's in Smart & Green Building at ESIEE-IT, always on a work-study basis: theory at school, practice in the field.",
+    "At Caldya GTB since 2022, I work from job sites to the design office: programming on Schneider EcoStruxure Building Operation, commissioning equipment such as Belimo controls, checking electricity metering and writing technical reports.",
+    "My goal: connect BMS, IoT and energy data to make buildings more efficient and compliant with the BACS decree."
+  ],
+  "localisation": "Pierrelaye (95)",
+  "email": "ludovic.grambert@orange.fr",
+  "linkedin": "",
+  "github": "",
+  "cv": "/CV_Ludovic_Grambert.pdf",
+  "disponibilite": "Work-study Master's in Smart & Green Building — ESIEE-IT",
+  "chiffres": [
+    {
+      "valeur": "4 yrs",
+      "libelle": "of work-study in BMS at Caldya"
+    },
+    {
+      "valeur": "18",
+      "libelle": "job sites completed in the field"
+    },
+    {
+      "valeur": "10",
+      "libelle": "projects showcased"
+    },
+    {
+      "valeur": "5",
+      "libelle": "people led as project manager"
+    }
+  ],
+  "domaines": [
+    {
+      "titre": "BMS & controls",
+      "texte": "Programming and commissioning on Schneider EcoStruxure, Belimo controls: from the job site to the design office."
+    },
+    {
+      "titre": "IoT & home automation",
+      "texte": "Sensors, MQTT, Z-Wave and Raspberry Pi gateways to make equipment communicate."
+    },
+    {
+      "titre": "Energy & data",
+      "texte": "Metering, consumption monitoring and the BACS decree for more efficient buildings."
+    }
+  ],
+  "technos": [
+    "EcoStruxure EBO",
+    "Modicon M221",
+    "Belimo",
+    "BACS decree",
+    "MQTT",
+    "Z-Wave",
+    "Raspberry Pi",
+    "Domoticz",
+    "Flutter",
+    "React",
+    "Node.js",
+    "Python"
+  ],
+  "langues": [
+    {
+      "langue": "French",
+      "niveau": "Native"
+    },
+    {
+      "langue": "English",
+      "niveau": "Intermediate"
+    }
+  ],
+  "interets": [
+    "Weight training",
+    "Travel — Japan 2026",
+    "Music — drums"
+  ],
+  "permis": "Driving licence"
+}
