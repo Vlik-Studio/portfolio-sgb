@@ -2,13 +2,13 @@
   "prenom": "Ludovic",
   "nom": "Grambert",
   "initiales": "LG",
-  "titre": "BMS Technician · Work-study Master's student in Smart & Green Building",
-  "accroche": "From the job site to the design office, I make buildings more energy-efficient.",
-  "presentation": "BMS technician on a work-study contract at Caldya since 2022, from job sites to the design office on Schneider EcoStruxure. As a Master's student at ESIEE-IT, I connect BMS, IoT and energy data to make buildings more efficient and compliant with the French BACS decree.",
+  "titre": "Master's in Smart & Green Building · BMS, energy and connected buildings",
+  "accroche": "I design, manage and optimise smart buildings: from the PLC on site to the energy dashboard.",
+  "presentation": "Four years of work-study in BMS at Caldya gave me solid field experience: EcoStruxure programming, commissioning, metering and client relations. Now in the second year of a Master's in Smart & Green Building engineering management at ESIEE-IT, I take a broader view: I lead projects, connect BMS, IoT and energy data, and help buildings comply with the French BACS decree.",
   "apropos": [
-    "After a STI2D baccalaureate and a vocational degree (BTS) in electrical engineering, I went on to a professional Bachelor's in home automation and then a Master's in Smart & Green Building at ESIEE-IT, always on a work-study basis: theory at school, practice in the field.",
-    "At Caldya GTB since 2022, I work from job sites to the design office: programming on Schneider EcoStruxure Building Operation, commissioning equipment such as Belimo controls, checking electricity metering and writing technical reports.",
-    "My goal: connect BMS, IoT and energy data to make buildings more efficient and compliant with the BACS decree."
+    "My path has been a steady rise in skills, always on a work-study basis: STI2D baccalaureate, BTS in electrical engineering, professional Bachelor's in home automation, then a Master's in Smart & Green Building engineering management at ESIEE-IT.",
+    "At Caldya GTB since 2022, I learned the trade on site and in the design office: programming on Schneider EcoStruxure Building Operation, commissioning equipment such as Belimo controls, checking electricity metering on commercial and logistics sites, writing technical reports and prospecting around the BACS decree.",
+    "My Master's adds the big picture and leadership: project manager of a multidisciplinary team (BMS, AI, cybersecurity), project management, energy data and IoT. My goal: to design and run buildings that are more efficient, smarter and compliant with regulations."
   ],
   "localisation": "Pierrelaye (95)",
   "email": "ludovic.grambert@orange.fr",
@@ -18,16 +18,16 @@
   "disponibilite": "Work-study Master's in Smart & Green Building — ESIEE-IT",
   "chiffres": [
     {
+      "valeur": "MSc",
+      "libelle": "Master's in Smart & Green Building engineering management"
+    },
+    {
       "valeur": "4 yrs",
-      "libelle": "of work-study in BMS at Caldya"
+      "libelle": "of hands-on BMS experience at Caldya"
     },
     {
       "valeur": "18",
       "libelle": "job sites completed in the field"
-    },
-    {
-      "valeur": "10",
-      "libelle": "projects showcased"
     },
     {
       "valeur": "5",
@@ -37,15 +37,19 @@
   "domaines": [
     {
       "titre": "BMS & controls",
-      "texte": "Programming and commissioning on Schneider EcoStruxure, Belimo controls: from the job site to the design office."
+      "texte": "Programming and commissioning on Schneider EcoStruxure, Belimo controls: I know the building from the PLC up to the supervisor."
     },
     {
-      "titre": "IoT & home automation",
-      "texte": "Sensors, MQTT, Z-Wave and Raspberry Pi gateways to make equipment communicate."
+      "titre": "Energy & BACS decree",
+      "texte": "Metering, consumption monitoring and BACS compliance: energy data serving more efficient buildings."
     },
     {
-      "titre": "Energy & data",
-      "texte": "Metering, consumption monitoring and the BACS decree for more efficient buildings."
+      "titre": "IoT & connected buildings",
+      "texte": "Sensors, MQTT, Z-Wave and Raspberry Pi gateways: making equipment communicate and using its data."
+    },
+    {
+      "titre": "Project management & client relations",
+      "texte": "Project manager of a team of 5, site coordination, technical reports and prospecting: I move projects forward with the right people."
     }
   ],
   "technos": [

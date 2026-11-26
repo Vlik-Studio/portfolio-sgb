@@ -1,33 +1,5 @@
 [
   {
-    "slug": "controle-comptage-site-logistique",
-    "titre": "Contrôle du comptage électrique d'un site logistique",
-    "image": "/images/projets/comptage-electrique.svg",
-    "imageAlt": "Grille de compteurs électriques reliés à la supervision EcoStruxure EBO",
-    "annee": null,
-    "role": "Technicien GTB — Caldya",
-    "resume": "Contrôle des remontées de 55 compteurs électriques, des automates M221 vers EcoStruxure Building Operation, sur un site logistique à Roissy.",
-    "tags": [
-      "GTB",
-      "Énergie",
-      "Data"
-    ],
-    "technos": [
-      "EcoStruxure EBO",
-      "Modicon M221",
-      "Machine Expert Basic",
-      "Comptage"
-    ],
-    "contexte": "Sur un site logistique à Roissy, les données de comptage électrique doivent remonter de façon fiable jusqu'à la GTB pour le suivi des consommations.",
-    "realisations": [
-      "Vérification des remontées de 55 compteurs, des automates M221 jusqu'à EBO",
-      "Repérage et suivi des écarts et des réserves d'installation",
-      "Rédaction du rapport technique de comptage"
-    ],
-    "resultat": "55 compteurs électriques contrôlés de bout en bout",
-    "mise_en_avant": true
-  },
-  {
     "slug": "batiment-intelligent-sans-surveillance",
     "titre": "Bâtiment intelligent sans surveillance",
     "image": "/images/projets/batiment-intelligent.svg",
@@ -53,6 +25,34 @@
       "Préparation et présentation de la revue de cadrage"
     ],
     "resultat": "Équipe de 5 menée jusqu'à la revue de cadrage",
+    "mise_en_avant": true
+  },
+  {
+    "slug": "controle-comptage-site-logistique",
+    "titre": "Contrôle du comptage électrique d'un site logistique",
+    "image": "/images/projets/comptage-electrique.svg",
+    "imageAlt": "Grille de compteurs électriques reliés à la supervision EcoStruxure EBO",
+    "annee": null,
+    "role": "Alternant GTB — Caldya",
+    "resume": "Contrôle des remontées de 55 compteurs électriques, des automates M221 vers EcoStruxure Building Operation, sur un site logistique à Roissy.",
+    "tags": [
+      "GTB",
+      "Énergie",
+      "Data"
+    ],
+    "technos": [
+      "EcoStruxure EBO",
+      "Modicon M221",
+      "Machine Expert Basic",
+      "Comptage"
+    ],
+    "contexte": "Sur un site logistique à Roissy, les données de comptage électrique doivent remonter de façon fiable jusqu'à la GTB pour le suivi des consommations.",
+    "realisations": [
+      "Vérification des remontées de 55 compteurs, des automates M221 jusqu'à EBO",
+      "Repérage et suivi des écarts et des réserves d'installation",
+      "Rédaction du rapport technique de comptage"
+    ],
+    "resultat": "55 compteurs électriques contrôlés de bout en bout",
     "mise_en_avant": true
   },
   {
@@ -91,7 +91,7 @@
     "image": "/images/projets/prospection.svg",
     "imageAlt": "Carte du Val-d'Oise avec des bâtiments ciblés et des emails envoyés",
     "annee": null,
-    "role": "Technicien GTB — Caldya",
+    "role": "Alternant GTB — Caldya",
     "resume": "Campagne d'emailing pour aider les bâtiments du Val-d'Oise, puis d'Île-de-France, à anticiper le décret BACS.",
     "tags": [
       "GTB",

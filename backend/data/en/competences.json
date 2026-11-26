@@ -30,10 +30,27 @@
       {
         "nom": "Electricity metering",
         "niveau": 3
+      }
+    ]
+  },
+  {
+    "groupe": "Management & client relations",
+    "items": [
+      {
+        "nom": "Project management (project lead)",
+        "niveau": 2
       },
       {
         "nom": "Technical reports",
         "niveau": 3
+      },
+      {
+        "nom": "Client relations & prospecting",
+        "niveau": 2
+      },
+      {
+        "nom": "Site coordination",
+        "niveau": 2
       }
     ]
   },

@@ -275,7 +275,7 @@ ul.tags.entree { display: flex; }
 .chiffre-libelle { color: var(--texte-doux); font-size: 0.95rem; }
 
 /* ===== Domaines ===== */
-.domaines { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; }
+.domaines { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; }
 .domaine { position: relative; overflow: hidden; transition: border-color 0.3s, transform 0.4s var(--ease); }
 .domaine::before {
   content: ""; position: absolute; inset: 0 0 auto 0; height: 3px;

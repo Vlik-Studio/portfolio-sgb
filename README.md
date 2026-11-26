@@ -1,6 +1,6 @@
 # Ludovic Grambert — Portfolio GTB & Smart Building
 
-Technicien GTB en alternance chez Caldya et étudiant en Master Smart & Green Building (ESIEE-IT), je présente ici mon parcours et 10 projets, du comptage électrique sur chantier à la supervision énergétique IoT.
+En Master 2 Manager en ingénierie Smart & Green Building (ESIEE-IT) après 4 ans d'alternance en GTB chez Caldya, je présente ici mon parcours et 10 projets : pilotage de projet, comptage électrique, supervision énergétique IoT et démos GTB interactives.
 Le site est une application full-stack : un frontend React qui consomme une API Express.
 
 **🌐 Site en ligne : https://portfolio-sgb-pb72.vercel.app**
@@ -111,5 +111,5 @@ portfolio-sgb/
 
 ## Auteur
 
-**Ludovic Grambert** — Technicien GTB · Master Smart & Green Building, ESIEE-IT
+**Ludovic Grambert** — Master 2 Smart & Green Building, ESIEE-IT · GTB, énergie et bâtiments connectés
 ludovic.grambert@orange.fr

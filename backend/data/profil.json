@@ -2,32 +2,32 @@
   "prenom": "Ludovic",
   "nom": "Grambert",
   "initiales": "LG",
-  "titre": "Technicien GTB · Alternant Master Smart & Green Building",
-  "accroche": "Du chantier au bureau d'études, je rends les bâtiments plus sobres.",
-  "presentation": "Technicien GTB en alternance chez Caldya depuis 2022, du chantier au bureau d'études sur Schneider EcoStruxure. En Master à ESIEE-IT, je relie GTB, IoT et données énergétiques pour rendre les bâtiments plus sobres et conformes au décret BACS.",
+  "titre": "Master 2 Smart & Green Building · GTB, énergie et bâtiments connectés",
+  "accroche": "Je conçois, pilote et optimise des bâtiments intelligents : de l'automate sur chantier au tableau de bord énergétique.",
+  "presentation": "Quatre ans d'alternance en GTB chez Caldya m'ont donné une solide expérience de terrain : programmation EcoStruxure, mise en service, comptage, relation client. Aujourd'hui en Master 2 Manager en ingénierie Smart & Green Building à ESIEE-IT, je prends de la hauteur : je pilote des projets, je relie GTB, IoT et données énergétiques, et j'accompagne les bâtiments vers la conformité au décret BACS.",
   "apropos": [
-    "Après un Bac STI2D et un BTS Électrotechnique, j'ai poursuivi en Licence professionnelle Domotique puis en Master Smart & Green Building à ESIEE-IT, toujours en alternance : la théorie à l'école, la pratique sur le terrain.",
-    "Chez Caldya GTB depuis 2022, je travaille du chantier au bureau d'études : programmation sur Schneider EcoStruxure Building Operation, mise en service d'équipements comme la régulation Belimo, contrôle du comptage électrique et rédaction de rapports techniques.",
-    "Mon objectif : relier GTB, IoT et données énergétiques pour rendre les bâtiments plus sobres et conformes au décret BACS."
+    "Mon parcours est une montée en compétences continue, toujours en alternance : Bac STI2D, BTS Électrotechnique, Licence professionnelle Domotique, puis le Master 2 Manager en ingénierie Smart & Green Building à ESIEE-IT.",
+    "Chez Caldya GTB depuis 2022, j'ai appris le métier sur le terrain et au bureau d'études : programmation sur Schneider EcoStruxure Building Operation, mise en service d'équipements comme la régulation Belimo, contrôle du comptage électrique de sites tertiaires et logistiques, rédaction de rapports techniques et prospection commerciale autour du décret BACS.",
+    "En Master, j'ajoute la vision d'ensemble et le pilotage : chef de projet d'une équipe pluridisciplinaire (GTB, IA, cybersécurité), gestion de projet, données énergétiques et IoT. Mon objectif : concevoir et piloter des bâtiments plus sobres, plus intelligents et conformes à la réglementation."
   ],
   "localisation": "Pierrelaye (95)",
   "email": "ludovic.grambert@orange.fr",
   "linkedin": "",
   "github": "https://github.com/Vlik-Studio",
   "cv": "/CV_Ludovic_Grambert.pdf",
-  "disponibilite": "Alternance en Master Smart & Green Building — ESIEE-IT",
+  "disponibilite": "Master 2 Smart & Green Building en alternance — ESIEE-IT",
   "chiffres": [
     {
+      "valeur": "Bac+5",
+      "libelle": "Master 2 Manager en ingénierie Smart & Green Building"
+    },
+    {
       "valeur": "4 ans",
-      "libelle": "d'alternance en GTB chez Caldya"
+      "libelle": "d'expérience terrain en GTB chez Caldya"
     },
     {
       "valeur": "18",
       "libelle": "chantiers réalisés en entreprise"
-    },
-    {
-      "valeur": "10",
-      "libelle": "projets présentés"
     },
     {
       "valeur": "5",
@@ -37,15 +37,19 @@
   "domaines": [
     {
       "titre": "GTB & régulation",
-      "texte": "Programmation et mise en service sur Schneider EcoStruxure, régulation Belimo : du chantier au bureau d'études."
+      "texte": "Programmation et mise en service sur Schneider EcoStruxure, régulation Belimo : je connais le bâtiment de l'automate jusqu'à la supervision."
     },
     {
-      "titre": "IoT & domotique",
-      "texte": "Capteurs, MQTT, Z-Wave et passerelles Raspberry Pi pour rendre les équipements communicants."
+      "titre": "Énergie & décret BACS",
+      "texte": "Comptage, suivi des consommations et mise en conformité BACS : la donnée énergétique au service de bâtiments plus sobres."
     },
     {
-      "titre": "Énergie & données",
-      "texte": "Comptage, suivi des consommations et décret BACS pour des bâtiments plus sobres."
+      "titre": "IoT & bâtiment connecté",
+      "texte": "Capteurs, MQTT, Z-Wave et passerelles Raspberry Pi : rendre les équipements communicants et exploiter leurs données."
+    },
+    {
+      "titre": "Pilotage de projet & relation client",
+      "texte": "Chef de projet d'une équipe de 5, coordination de chantier, rapports techniques et prospection : je fais avancer les projets avec les bonnes personnes."
     }
   ],
   "technos": [

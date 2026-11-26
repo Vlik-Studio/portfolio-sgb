@@ -2,34 +2,90 @@
   {
     "groupe": "GTB & régulation",
     "items": [
-      { "nom": "Schneider EcoStruxure EBO", "niveau": 3 },
-      { "nom": "Machine Expert Basic (M221)", "niveau": 2 },
-      { "nom": "Régulation Belimo", "niveau": 2 },
-      { "nom": "Mise en service sur chantier", "niveau": 3 }
+      {
+        "nom": "Schneider EcoStruxure EBO",
+        "niveau": 3
+      },
+      {
+        "nom": "Machine Expert Basic (M221)",
+        "niveau": 2
+      },
+      {
+        "nom": "Régulation Belimo",
+        "niveau": 2
+      },
+      {
+        "nom": "Mise en service sur chantier",
+        "niveau": 3
+      }
     ]
   },
   {
     "groupe": "Énergie & réglementation",
     "items": [
-      { "nom": "Décret BACS", "niveau": 2 },
-      { "nom": "Comptage électrique", "niveau": 3 },
-      { "nom": "Rapports techniques", "niveau": 3 }
+      {
+        "nom": "Décret BACS",
+        "niveau": 2
+      },
+      {
+        "nom": "Comptage électrique",
+        "niveau": 3
+      }
+    ]
+  },
+  {
+    "groupe": "Pilotage & relation client",
+    "items": [
+      {
+        "nom": "Gestion de projet (chef de projet)",
+        "niveau": 2
+      },
+      {
+        "nom": "Rapports techniques",
+        "niveau": 3
+      },
+      {
+        "nom": "Relation client & prospection",
+        "niveau": 2
+      },
+      {
+        "nom": "Coordination de chantier",
+        "niveau": 2
+      }
     ]
   },
   {
     "groupe": "IoT & domotique",
     "items": [
-      { "nom": "MQTT / Mosquitto", "niveau": 2 },
-      { "nom": "Z-Wave", "niveau": 2 },
-      { "nom": "Raspberry Pi · Domoticz", "niveau": 2 }
+      {
+        "nom": "MQTT / Mosquitto",
+        "niveau": 2
+      },
+      {
+        "nom": "Z-Wave",
+        "niveau": 2
+      },
+      {
+        "nom": "Raspberry Pi · Domoticz",
+        "niveau": 2
+      }
     ]
   },
   {
     "groupe": "Développement",
     "items": [
-      { "nom": "Flutter / Dart", "niveau": 1 },
-      { "nom": "JavaScript · React · Node.js", "niveau": 1 },
-      { "nom": "Python", "niveau": 1 }
+      {
+        "nom": "Flutter / Dart",
+        "niveau": 1
+      },
+      {
+        "nom": "JavaScript · React · Node.js",
+        "niveau": 1
+      },
+      {
+        "nom": "Python",
+        "niveau": 1
+      }
     ]
   }
 ]

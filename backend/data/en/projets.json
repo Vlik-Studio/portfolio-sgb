@@ -1,33 +1,5 @@
 [
   {
-    "slug": "controle-comptage-site-logistique",
-    "titre": "Electricity metering check on a logistics site",
-    "image": "/images/projets/comptage-electrique.svg",
-    "imageAlt": "Grid of electricity meters linked to the EcoStruxure EBO supervisor",
-    "annee": null,
-    "role": "BMS Technician — Caldya",
-    "resume": "Checking data from 55 electricity meters, from M221 PLCs up to EcoStruxure Building Operation, on a logistics site near Roissy airport.",
-    "tags": [
-      "BMS",
-      "Energy",
-      "Data"
-    ],
-    "technos": [
-      "EcoStruxure EBO",
-      "Modicon M221",
-      "Machine Expert Basic",
-      "Metering"
-    ],
-    "contexte": "On a logistics site near Roissy, electricity metering data must reach the BMS reliably to monitor consumption.",
-    "realisations": [
-      "Checking data from 55 meters, from the M221 PLCs up to EBO",
-      "Identifying and tracking discrepancies and installation punch-list items",
-      "Writing the metering technical report"
-    ],
-    "resultat": "55 electricity meters checked end to end",
-    "mise_en_avant": true
-  },
-  {
     "slug": "batiment-intelligent-sans-surveillance",
     "titre": "Smart building without surveillance",
     "image": "/images/projets/batiment-intelligent.svg",
@@ -53,6 +25,34 @@
       "Preparing and presenting the scoping review"
     ],
     "resultat": "Team of 5 led to the scoping review",
+    "mise_en_avant": true
+  },
+  {
+    "slug": "controle-comptage-site-logistique",
+    "titre": "Electricity metering check on a logistics site",
+    "image": "/images/projets/comptage-electrique.svg",
+    "imageAlt": "Grid of electricity meters linked to the EcoStruxure EBO supervisor",
+    "annee": null,
+    "role": "BMS work-study — Caldya",
+    "resume": "Checking data from 55 electricity meters, from M221 PLCs up to EcoStruxure Building Operation, on a logistics site near Roissy airport.",
+    "tags": [
+      "BMS",
+      "Energy",
+      "Data"
+    ],
+    "technos": [
+      "EcoStruxure EBO",
+      "Modicon M221",
+      "Machine Expert Basic",
+      "Metering"
+    ],
+    "contexte": "On a logistics site near Roissy, electricity metering data must reach the BMS reliably to monitor consumption.",
+    "realisations": [
+      "Checking data from 55 meters, from the M221 PLCs up to EBO",
+      "Identifying and tracking discrepancies and installation punch-list items",
+      "Writing the metering technical report"
+    ],
+    "resultat": "55 electricity meters checked end to end",
     "mise_en_avant": true
   },
   {
@@ -91,7 +91,7 @@
     "image": "/images/projets/prospection.svg",
     "imageAlt": "Map of the Val-d'Oise with targeted buildings and sent emails",
     "annee": null,
-    "role": "BMS Technician — Caldya",
+    "role": "BMS work-study — Caldya",
     "resume": "Email campaign helping buildings in the Val-d'Oise, then the Île-de-France region, get ahead of the BACS decree.",
     "tags": [
       "BMS",
