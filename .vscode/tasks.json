@@ -1,0 +1,31 @@
+{
+  // Menu Terminal > Exécuter la tâche… > "Démarrer le portfolio"
+  // Lance le backend (port 3000) et le site (port 5173) dans deux terminaux.
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Backend (API Express)",
+      "type": "shell",
+      "command": "[ -s \"$HOME/.nvm/nvm.sh\" ] && . \"$HOME/.nvm/nvm.sh\"; npm install && npm run dev",
+      "options": { "cwd": "${workspaceFolder}/backend" },
+      "isBackground": true,
+      "problemMatcher": [],
+      "presentation": { "group": "portfolio", "panel": "dedicated" }
+    },
+    {
+      "label": "Frontend (site React)",
+      "type": "shell",
+      "command": "[ -s \"$HOME/.nvm/nvm.sh\" ] && . \"$HOME/.nvm/nvm.sh\"; npm install && npm run dev -- --open",
+      "options": { "cwd": "${workspaceFolder}/frontend" },
+      "isBackground": true,
+      "problemMatcher": [],
+      "presentation": { "group": "portfolio", "panel": "dedicated" }
+    },
+    {
+      "label": "Démarrer le portfolio",
+      "dependsOn": ["Backend (API Express)", "Frontend (site React)"],
+      "dependsOrder": "parallel",
+      "problemMatcher": []
+    }
+  ]
+}

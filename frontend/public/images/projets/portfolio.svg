@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450"><defs><pattern id="g" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#1c2a33" stroke-width="1"/></pattern></defs><rect width="800" height="450" fill="#101a21"/><rect width="800" height="450" fill="url(#g)"/>
+<g fill="none" stroke-linejoin="round" stroke-linecap="round">
+<rect x="140" y="60" width="420" height="290" rx="14" stroke="#3ddc97" stroke-width="4"/>
+<path d="M140 100h420" stroke="#3ddc97" stroke-width="4"/>
+<circle cx="165" cy="80" r="6" fill="#f5b841" stroke="none"/><circle cx="187" cy="80" r="6" fill="#26343f" stroke="none"/><circle cx="209" cy="80" r="6" fill="#26343f" stroke="none"/>
+<path d="M300 300V200l70-40 70 40v100" stroke="#9db0bd" stroke-width="3"/><path d="M300 200l70 40 70-40M370 240v60" stroke="#9db0bd" stroke-width="3"/>
+<path d="M175 135h90M175 160h60M175 185h75" stroke="#26343f" stroke-width="8"/>
+<rect x="620" y="150" width="130" height="150" rx="10" stroke="#f5b841" stroke-width="3"/>
+<path d="M640 185h90M640 215h60M640 245h80" stroke="#9db0bd" stroke-width="3"/>
+<path d="M560 225h60" stroke="#26343f" stroke-width="3" stroke-dasharray="6 6"/>
+</g><text x="636" y="285" font-family="monospace" font-size="14" fill="#f5b841">/api</text>
+<text x="40" y="420" fill="#9db0bd" font-family="monospace" font-size="16">REACT · EXPRESS · JSON · CANVAS 3D</text></svg>

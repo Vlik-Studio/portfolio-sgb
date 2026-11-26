@@ -1,0 +1,44 @@
+[
+  {
+    "periode": "2025 – aujourd'hui",
+    "type": "formation",
+    "titre": "Master Smart & Green Building",
+    "lieu": "ESIEE-IT · alternance",
+    "description": "Manager en ingénierie informatique : GTB, IoT, données énergétiques, cybersécurité et gestion de projet."
+  },
+  {
+    "periode": "2024 – 2025",
+    "type": "formation",
+    "titre": "Licence professionnelle Domotique",
+    "lieu": "ESIEE-IT · alternance",
+    "description": "Domotique, objets connectés et automatismes du bâtiment."
+  },
+  {
+    "periode": "2022 – aujourd'hui",
+    "type": "experience",
+    "titre": "Technicien GTB — Caldya GTB",
+    "lieu": "Herblay (95) · alternance",
+    "description": "Programmation sur Schneider EcoStruxure Building Operation (bases de données, Device Administrator), mise en service sur chantier dont la régulation Belimo, contrôle de 55 compteurs (M221 vers EBO), rapports techniques et prospection BACS dans le Val-d'Oise."
+  },
+  {
+    "periode": "2024",
+    "type": "formation",
+    "titre": "BTS Électrotechnique",
+    "lieu": "Lycée Jean Perrin · alternance",
+    "description": "Installations électriques, automatismes et distribution d'énergie."
+  },
+  {
+    "periode": "2022",
+    "type": "formation",
+    "titre": "Bac STI2D, mention Bien",
+    "lieu": "Lycée Jean Perrin",
+    "description": "Sciences et technologies de l'industrie et du développement durable."
+  },
+  {
+    "periode": "2020",
+    "type": "experience",
+    "titre": "Agent administratif — Service des Impôts des Particuliers",
+    "lieu": "Cergy (95) · emploi saisonnier",
+    "description": "Tri, archivage et saisie informatique."
+  }
+]

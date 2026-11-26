@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450"><defs><pattern id="g" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#1c2a33" stroke-width="1"/></pattern></defs><rect width="800" height="450" fill="#101a21"/><rect width="800" height="450" fill="url(#g)"/>
+<g fill="none" stroke-linejoin="round">
+<path d="M250 380V170l150-80 150 80v210" stroke="#3ddc97" stroke-width="4"/>
+<path d="M210 380h380" stroke="#3ddc97" stroke-width="4"/>
+<g stroke="#9db0bd" stroke-width="3">
+<rect x="290" y="200" width="44" height="40" rx="4"/><rect x="378" y="200" width="44" height="40" rx="4"/><rect x="466" y="200" width="44" height="40" rx="4"/>
+<rect x="290" y="270" width="44" height="40" rx="4"/><rect x="466" y="270" width="44" height="40" rx="4"/>
+<path d="M378 380v-70h44v70"/></g>
+<circle cx="400" cy="140" r="16" stroke="#f5b841" stroke-width="3"/>
+<path d="M370 115a42 42 0 0 1 60 0M355 100a64 64 0 0 1 90 0" stroke="#f5b841" stroke-width="3" stroke-linecap="round"/>
+<path d="M610 150l50 20v40c0 30-22 50-50 60-28-10-50-30-50-60v-40z" stroke="#3ddc97" stroke-width="4"/>
+<path d="M590 205l14 14 28-30" stroke="#3ddc97" stroke-width="4" stroke-linecap="round"/>
+<circle cx="160" cy="190" r="34" stroke="#9db0bd" stroke-width="3"/><path d="M148 182h24M148 198h24M160 170v40" stroke="#9db0bd" stroke-width="3"/>
+<path d="M194 190h56M560 210h-10" stroke="#26343f" stroke-width="3" stroke-dasharray="6 6"/>
+</g>
+<text x="40" y="420" fill="#9db0bd" font-family="monospace" font-size="16">GTB · IA · CYBERSÉCURITÉ</text>
+</svg>

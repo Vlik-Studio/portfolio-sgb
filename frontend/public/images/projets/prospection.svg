@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450"><defs><pattern id="g" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#1c2a33" stroke-width="1"/></pattern></defs><rect width="800" height="450" fill="#101a21"/><rect width="800" height="450" fill="url(#g)"/>
+<path d="M150 120l70-40 90 20 60-30 70 50-10 70 40 60-60 70-90-10-70 40-80-50-50-70 20-80z" fill="#172129" stroke="#3ddc97" stroke-width="3" stroke-linejoin="round"/>
+<text x="250" y="230" font-family="monospace" font-size="20" fill="#3ddc97">95</text>
+<g fill="#f5b841"><circle cx="220" cy="150" r="7"/><circle cx="330" cy="170" r="7"/><circle cx="280" cy="280" r="7"/><circle cx="400" cy="230" r="7"/><circle cx="190" cy="230" r="7"/></g>
+<g fill="none" stroke="#9db0bd" stroke-width="3" stroke-linejoin="round">
+<rect x="560" y="110" width="180" height="110" rx="10"/><path d="M560 120l90 60 90-60"/>
+<rect x="590" y="250" width="150" height="90" rx="10" stroke="#3ddc97"/><path d="M590 258l75 48 75-48" stroke="#3ddc97"/></g>
+<path d="M410 230C480 230 500 170 550 165M410 230c70 0 110 60 170 65" fill="none" stroke="#26343f" stroke-width="3" stroke-dasharray="6 6"/>
+<text x="608" y="372" font-family="monospace" font-size="14" fill="#f5b841">DÉCRET BACS</text>
+<text x="40" y="420" fill="#9db0bd" font-family="monospace" font-size="16">PROSPECTION · VAL-D'OISE · ÎLE-DE-FRANCE</text></svg>

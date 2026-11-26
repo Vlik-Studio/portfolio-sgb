@@ -1,0 +1,81 @@
+{
+  "prenom": "Ludovic",
+  "nom": "Grambert",
+  "initiales": "LG",
+  "titre": "Technicien GTB · Alternant Master Smart & Green Building",
+  "accroche": "Du chantier au bureau d'études, je rends les bâtiments plus sobres.",
+  "presentation": "Technicien GTB en alternance chez Caldya depuis 2022, du chantier au bureau d'études sur Schneider EcoStruxure. En Master à ESIEE-IT, je relie GTB, IoT et données énergétiques pour rendre les bâtiments plus sobres et conformes au décret BACS.",
+  "apropos": [
+    "Après un Bac STI2D et un BTS Électrotechnique, j'ai poursuivi en Licence professionnelle Domotique puis en Master Smart & Green Building à ESIEE-IT, toujours en alternance : la théorie à l'école, la pratique sur le terrain.",
+    "Chez Caldya GTB depuis 2022, je travaille du chantier au bureau d'études : programmation sur Schneider EcoStruxure Building Operation, mise en service d'équipements comme la régulation Belimo, contrôle du comptage électrique et rédaction de rapports techniques.",
+    "Mon objectif : relier GTB, IoT et données énergétiques pour rendre les bâtiments plus sobres et conformes au décret BACS."
+  ],
+  "localisation": "Pierrelaye (95)",
+  "email": "ludovic.grambert@orange.fr",
+  "linkedin": "",
+  "github": "",
+  "cv": "/CV_Ludovic_Grambert.pdf",
+  "disponibilite": "Alternance en Master Smart & Green Building — ESIEE-IT",
+  "chiffres": [
+    {
+      "valeur": "4 ans",
+      "libelle": "d'alternance en GTB chez Caldya"
+    },
+    {
+      "valeur": "55",
+      "libelle": "compteurs électriques contrôlés"
+    },
+    {
+      "valeur": "10",
+      "libelle": "projets présentés"
+    },
+    {
+      "valeur": "5",
+      "libelle": "personnes pilotées en chef de projet"
+    }
+  ],
+  "domaines": [
+    {
+      "titre": "GTB & régulation",
+      "texte": "Programmation et mise en service sur Schneider EcoStruxure, régulation Belimo : du chantier au bureau d'études."
+    },
+    {
+      "titre": "IoT & domotique",
+      "texte": "Capteurs, MQTT, Z-Wave et passerelles Raspberry Pi pour rendre les équipements communicants."
+    },
+    {
+      "titre": "Énergie & données",
+      "texte": "Comptage, suivi des consommations et décret BACS pour des bâtiments plus sobres."
+    }
+  ],
+  "technos": [
+    "EcoStruxure EBO",
+    "Modicon M221",
+    "Belimo",
+    "Décret BACS",
+    "MQTT",
+    "Z-Wave",
+    "Raspberry Pi",
+    "Domoticz",
+    "Flutter",
+    "React",
+    "Node.js",
+    "Python"
+  ],
+  "langues": [
+    {
+      "langue": "Français",
+      "niveau": "Langue maternelle"
+    },
+    {
+      "langue": "Anglais",
+      "niveau": "Intermédiaire"
+    }
+  ],
+  "interets": [
+    "Musculation",
+    "Voyage — Japon 2026",
+    "Musique — batterie"
+  ],
+  "permis": "Permis B"
+}

@@ -1,0 +1,274 @@
+[
+  {
+    "slug": "controle-comptage-site-logistique",
+    "titre": "Contrôle du comptage électrique d'un site logistique",
+    "image": "/images/projets/comptage-electrique.svg",
+    "imageAlt": "Grille de compteurs électriques reliés à la supervision EcoStruxure EBO",
+    "annee": null,
+    "role": "Technicien GTB — Caldya",
+    "resume": "Contrôle des remontées de 55 compteurs électriques, des automates M221 vers EcoStruxure Building Operation, sur un site logistique à Roissy.",
+    "tags": [
+      "GTB",
+      "Énergie",
+      "Data"
+    ],
+    "technos": [
+      "EcoStruxure EBO",
+      "Modicon M221",
+      "Machine Expert Basic",
+      "Comptage"
+    ],
+    "contexte": "Sur un site logistique à Roissy, les données de comptage électrique doivent remonter de façon fiable jusqu'à la GTB pour le suivi des consommations.",
+    "realisations": [
+      "Vérification des remontées de 55 compteurs, des automates M221 jusqu'à EBO",
+      "Repérage et suivi des écarts et des réserves d'installation",
+      "Rédaction du rapport technique de comptage"
+    ],
+    "resultat": "55 compteurs électriques contrôlés de bout en bout",
+    "mise_en_avant": true
+  },
+  {
+    "slug": "batiment-intelligent-sans-surveillance",
+    "titre": "Bâtiment intelligent sans surveillance",
+    "image": "/images/projets/batiment-intelligent.svg",
+    "imageAlt": "Schéma d'un bâtiment connecté à une GTB, une IA et un bouclier de cybersécurité",
+    "annee": 2026,
+    "role": "Chef de projet",
+    "resume": "Project Lab ESIEE-IT : pilotage d'une équipe de 5 (GTB, IA, cybersécurité) jusqu'à la revue de cadrage.",
+    "tags": [
+      "GTB",
+      "IA",
+      "Cybersécurité"
+    ],
+    "technos": [
+      "GTB",
+      "IA",
+      "Cybersécurité",
+      "Gestion de projet"
+    ],
+    "contexte": "Projet d'équipe du Project Lab ESIEE-IT : concevoir un bâtiment intelligent qui optimise son fonctionnement grâce à la GTB et à l'IA, sans surveiller ses occupants.",
+    "realisations": [
+      "Pilotage d'une équipe pluridisciplinaire de 5 personnes (GTB, IA, cybersécurité)",
+      "Cadrage du besoin, du périmètre et des livrables",
+      "Préparation et présentation de la revue de cadrage"
+    ],
+    "resultat": "Équipe de 5 menée jusqu'à la revue de cadrage",
+    "mise_en_avant": true
+  },
+  {
+    "slug": "supervision-energetique",
+    "titre": "Application de supervision énergétique",
+    "image": "/images/projets/supervision-energetique.svg",
+    "imageAlt": "Application mobile affichant la puissance, la tension, le courant et l'énergie d'une prise connectée",
+    "annee": null,
+    "role": "Projet personnel / académique",
+    "resume": "App mobile pilotant une prise connectée et affichant W, V, A et kWh, via Raspberry Pi, Domoticz et Mosquitto.",
+    "tags": [
+      "IoT",
+      "Énergie"
+    ],
+    "technos": [
+      "Flutter",
+      "MQTT",
+      "Z-Wave",
+      "Raspberry Pi",
+      "Domoticz",
+      "Mosquitto"
+    ],
+    "contexte": "Rendre visible la consommation électrique d'un équipement et pouvoir le piloter à distance depuis un smartphone.",
+    "realisations": [
+      "Mise en place d'une passerelle domotique sur Raspberry Pi avec Domoticz",
+      "Échange des mesures et des commandes en MQTT via le broker Mosquitto",
+      "Application mobile Flutter : marche / arrêt de la prise connectée Z-Wave",
+      "Affichage en temps réel de la puissance (W), de la tension (V), du courant (A) et de l'énergie (kWh)"
+    ],
+    "resultat": "4 grandeurs électriques affichées en temps réel : W, V, A et kWh",
+    "mise_en_avant": true
+  },
+  {
+    "slug": "prospection-bacs",
+    "titre": "Prospection GTB et décret BACS",
+    "image": "/images/projets/prospection.svg",
+    "imageAlt": "Carte du Val-d'Oise avec des bâtiments ciblés et des emails envoyés",
+    "annee": null,
+    "role": "Technicien GTB — Caldya",
+    "resume": "Campagne d'emailing pour aider les bâtiments du Val-d'Oise, puis d'Île-de-France, à anticiper le décret BACS.",
+    "tags": [
+      "GTB",
+      "Énergie"
+    ],
+    "technos": [
+      "Décret BACS",
+      "Emailing",
+      "Prospection"
+    ],
+    "contexte": "Le décret BACS impose une GTB à de nombreux bâtiments tertiaires : les propriétaires ont intérêt à s'équiper avant l'échéance.",
+    "realisations": [
+      "Recherche de prospects dans le Val-d'Oise",
+      "Préparation d'une campagne d'emailing",
+      "Mise en avant des obligations du décret BACS"
+    ],
+    "resultat": "Ciblage du Val-d'Oise, puis extension à l'Île-de-France",
+    "mise_en_avant": false
+  },
+  {
+    "slug": "refrigerateur-intelligent",
+    "titre": "Réfrigérateur intelligent IA / IoT",
+    "image": "/images/projets/refrigerateur-intelligent.svg",
+    "imageAlt": "Réfrigérateur avec caméra de reconnaissance et liste des dates de péremption",
+    "annee": null,
+    "role": "Projet académique · mémoire en anglais",
+    "resume": "Reconnaissance des produits par vision et suivi des dates de péremption pour réduire le gaspillage.",
+    "tags": [
+      "IA",
+      "IoT"
+    ],
+    "technos": [
+      "Vision par ordinateur",
+      "IoT",
+      "Anglais"
+    ],
+    "contexte": "Le gaspillage alimentaire commence souvent dans le réfrigérateur : des produits oubliés dépassent leur date de péremption.",
+    "realisations": [
+      "Étude d'un réfrigérateur connecté qui reconnaît les produits par vision",
+      "Suivi des dates de péremption et alertes avant expiration",
+      "Rédaction d'un mémoire et soutenance orale en anglais"
+    ],
+    "resultat": "Mémoire rédigé et soutenu en anglais",
+    "mise_en_avant": false
+  },
+  {
+    "slug": "portfolio-full-stack",
+    "titre": "Ce portfolio, en full-stack",
+    "image": "/images/projets/portfolio.svg",
+    "imageAlt": "Fenêtre de navigateur reliée à une API, avec un bâtiment en 3D",
+    "annee": 2026,
+    "role": "Projet de cours · Master SGB",
+    "resume": "Site React + API Express sans base de données : contenu en JSON, recherche, mode sombre, bâtiment 3D et animations au scroll.",
+    "tags": [
+      "Web",
+      "Développement"
+    ],
+    "technos": [
+      "React",
+      "React Router",
+      "Vite",
+      "Node.js",
+      "Express",
+      "Canvas 2D",
+      "Git / GitHub"
+    ],
+    "contexte": "Projet fil rouge du module Développement Web Frontend / Backend : présenter mon parcours et mes projets sur un site que je peux faire évoluer seul.",
+    "realisations": [
+      "API Express qui sert le profil, les projets, le parcours et les compétences en JSON",
+      "Frontend React avec routage, recherche combinée aux filtres et mode clair / sombre mémorisé",
+      "Bâtiment 3D animé dessiné en Canvas, sans librairie externe",
+      "Animations au scroll, compteurs animés et cartes inclinables en 3D"
+    ],
+    "resultat": "Un site full-stack que je mets à jour en modifiant de simples fichiers JSON",
+    "mise_en_avant": false
+  },
+  {
+    "slug": "irve-phase-chantier",
+    "titre": "Borne de recharge IRVE — phase chantier",
+    "image": "/images/projets/irve.svg",
+    "imageAlt": "Borne de recharge pour véhicule électrique à côté d'un planning de chantier",
+    "annee": null,
+    "role": "Planification de chantier",
+    "resume": "Planning de la phase chantier pour l'installation d'une infrastructure de recharge de véhicules électriques.",
+    "tags": [
+      "Énergie"
+    ],
+    "technos": [
+      "IRVE",
+      "Planning",
+      "Gestion de chantier"
+    ],
+    "contexte": "L'installation d'une borne de recharge implique plusieurs corps de métier qu'il faut coordonner sur le chantier.",
+    "realisations": [
+      "Découpage de la phase chantier en étapes",
+      "Enchaînement et durée des tâches dans un planning",
+      "Vision d'ensemble pour coordonner les intervenants"
+    ],
+    "resultat": "Un planning de chantier structuré, étape par étape",
+    "mise_en_avant": false
+  },
+  {
+    "slug": "base-de-donnees-tennis-de-table",
+    "titre": "Base de données d'un club de tennis de table",
+    "image": "/images/projets/base-de-donnees.svg",
+    "imageAlt": "Schéma entité-association reliant joueurs, clubs, matchs et entraînements",
+    "annee": null,
+    "role": "Projet de cours · Merise",
+    "resume": "Modèle conceptuel (MCD) et dictionnaire de données pour gérer joueurs, clubs, compétitions, matchs et entraînements.",
+    "tags": [
+      "Data"
+    ],
+    "technos": [
+      "Merise",
+      "MCD",
+      "Dictionnaire de données"
+    ],
+    "contexte": "Un club de tennis de table doit suivre ses joueurs, leurs classements, leurs matchs et leurs entraînements dans une base de données cohérente.",
+    "realisations": [
+      "Rédaction du dictionnaire de données",
+      "Modélisation des entités : joueurs, clubs, catégories, classements, compétitions, lieux, résultats, matchs, adversaires, analyses de match, entraîneurs, stages et contenus d'entraînement",
+      "Définition des associations et des cardinalités entre les entités"
+    ],
+    "resultat": "Un modèle conceptuel couvrant 13 notions métier",
+    "mise_en_avant": false
+  },
+  {
+    "slug": "edugest",
+    "titre": "EduGest — analyse de notes d'étudiants",
+    "image": "/images/projets/edugest.svg",
+    "imageAlt": "Éditeur de code JavaScript à côté d'un histogramme de notes",
+    "annee": null,
+    "role": "Exercices de cours · JavaScript",
+    "resume": "Scripts Node.js qui calculent moyennes, mentions et statistiques par groupe à partir d'une liste d'étudiants.",
+    "tags": [
+      "Développement",
+      "Data"
+    ],
+    "technos": [
+      "JavaScript",
+      "Node.js",
+      "Modules ES"
+    ],
+    "contexte": "Apprendre le JavaScript moderne sur un cas concret : analyser les notes d'une promotion.",
+    "realisations": [
+      "Manipulation des données avec filter, map, la déstructuration et l'opérateur spread",
+      "Calcul des moyennes et attribution des mentions",
+      "Statistiques par groupe d'étudiants",
+      "Organisation du code en modules (etudiants.js, analyse.js)"
+    ],
+    "resultat": "Moyennes, mentions et statistiques par groupe calculées automatiquement",
+    "mise_en_avant": false
+  },
+  {
+    "slug": "jeu-du-pendu",
+    "titre": "Jeu du pendu en Python",
+    "image": "/images/projets/pendu.svg",
+    "imageAlt": "Potence du jeu du pendu avec un mot à trous et un tableau de scores",
+    "annee": null,
+    "role": "Projet d'apprentissage · Python",
+    "resume": "Jeu du pendu avec une liste de joueurs sauvegardée et des statistiques de parties jouées et gagnées.",
+    "tags": [
+      "Développement"
+    ],
+    "technos": [
+      "Python",
+      "Fichiers texte",
+      "Algorigrammes"
+    ],
+    "contexte": "Apprendre à structurer un programme Python, de l'algorigramme au jeu complet.",
+    "realisations": [
+      "Structuration du programme en phases, avec algorigrammes",
+      "Mots tirés depuis un fichier externe",
+      "Reconnaissance des joueurs existants et création de nouveaux joueurs",
+      "Sauvegarde des parties jouées et gagnées après chaque partie"
+    ],
+    "resultat": "Statistiques des joueurs conservées d'une partie à l'autre",
+    "mise_en_avant": false
+  }
+]

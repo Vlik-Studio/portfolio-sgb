@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450"><defs><pattern id="g" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#1c2a33" stroke-width="1"/></pattern></defs><rect width="800" height="450" fill="#101a21"/><rect width="800" height="450" fill="url(#g)"/>
+<rect x="60" y="60" width="360" height="290" rx="12" fill="#172129" stroke="#26343f" stroke-width="2"/>
+<g font-family="monospace" font-size="15">
+<text x="85" y="100" fill="#3ddc97">const</text><text x="140" y="100" fill="#e6edf2">admis = etudiants</text>
+<text x="105" y="128" fill="#e6edf2">.filter(</text><text x="185" y="128" fill="#f5b841">e =&gt; e.moy &gt;= 10</text><text x="345" y="128" fill="#e6edf2">)</text>
+<text x="105" y="156" fill="#e6edf2">.map(</text><text x="160" y="156" fill="#f5b841">({ nom }) =&gt; nom</text><text x="315" y="156" fill="#e6edf2">);</text>
+<text x="85" y="200" fill="#3ddc97">export</text><text x="150" y="200" fill="#e6edf2">function mention(m) {</text>
+<text x="105" y="228" fill="#9db0bd">if (m &gt;= 16) return "TB";</text>
+<text x="105" y="256" fill="#9db0bd">if (m &gt;= 14) return "B";</text>
+<text x="105" y="284" fill="#9db0bd">return "AB";</text><text x="85" y="312" fill="#e6edf2">}</text></g>
+<g fill="#3ddc97"><rect x="480" y="250" width="40" height="80" rx="4"/><rect x="535" y="190" width="40" height="140" rx="4"/><rect x="590" y="140" width="40" height="190" rx="4" fill="#f5b841"/><rect x="645" y="210" width="40" height="120" rx="4"/><rect x="700" y="270" width="40" height="60" rx="4"/></g>
+<path d="M470 330h280" stroke="#9db0bd" stroke-width="3"/>
+<text x="40" y="420" fill="#9db0bd" font-family="monospace" font-size="16">JAVASCRIPT · NODE.JS · MOYENNES &amp; MENTIONS</text></svg>

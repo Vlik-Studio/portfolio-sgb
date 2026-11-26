@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" width="800" height="450"><defs><pattern id="g" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#1c2a33" stroke-width="1"/></pattern></defs><rect width="800" height="450" fill="#101a21"/><rect width="800" height="450" fill="url(#g)"/>
+<g fill="none" stroke="#3ddc97" stroke-width="5" stroke-linecap="round"><path d="M110 360h170M160 360V70h120v40"/></g>
+<g fill="none" stroke="#f5b841" stroke-width="4" stroke-linecap="round"><circle cx="280" cy="140" r="28"/><path d="M280 168v80M280 190l-30 30M280 190l30 30"/></g>
+<g font-family="monospace" fill="#e6edf2" font-size="44" letter-spacing="10"><text x="370" y="200">B _ T _ M _ N T</text></g>
+<g font-family="monospace" font-size="15"><rect x="370" y="250" width="380" height="110" rx="10" fill="#172129" stroke="#26343f" stroke-width="2"/>
+<text x="392" y="282" fill="#9db0bd">JOUEUR</text><text x="560" y="282" fill="#9db0bd">PARTIES</text><text x="670" y="282" fill="#9db0bd">GAGNÉES</text>
+<text x="392" y="314" fill="#e6edf2">Ludo</text><text x="560" y="314" fill="#f5b841">12</text><text x="670" y="314" fill="#3ddc97">9</text>
+<text x="392" y="342" fill="#e6edf2">Invité</text><text x="560" y="342" fill="#f5b841">4</text><text x="670" y="342" fill="#3ddc97">1</text></g>
+<text x="40" y="420" fill="#9db0bd" font-family="monospace" font-size="16">PYTHON · FICHIERS · STATISTIQUES</text></svg>
